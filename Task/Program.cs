@@ -18,4 +18,4 @@ string ReleaseArray(string [] array)
 Console.Clear();
 string [] array = {"Hello", "World", "2", ";)"};
 Console.WriteLine($"Исходный массив: [{string.Join(", ", array)}]");
-Console.WriteLine($"Новый массив: [{ReleaseArray(array)}]");
+Console.WriteLine($"Новый массив: [{string.Join(",  ", ReleaseArray(array))}]");
